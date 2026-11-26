@@ -1,0 +1,126 @@
+:root{
+    --font-ppal: BBH Bogle;
+    --font-sec: Lato;   
+}
+
+@import url('https://fonts.googleapis.com/css2?family=BBH+Bogle&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    border-block: 0;    
+}
+
+.apertura{
+    margin: 20px;
+    padding: 20px;
+}
+
+.enlaces{
+    display: inline-block;
+    margin: 16px;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.enlaces ul{
+    display: flex;
+    flex-direction: row;   
+    gap: 16px; 
+}
+
+header{
+    padding: 20px 32px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+.navegacion{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 16px;
+    margin-right: 16px;
+    width: 100%;
+    max-width: 1312px;
+    
+}
+.navegacion ul{
+    display: flex;
+    flex-direction: row;
+    margin-top: 28px;
+    margin-bottom: 22px;
+    padding: 1px;
+    gap: 40px;
+}
+
+.posicion {
+    display: inline-block;
+    background-color: darkslategrey;
+    color: #f4f6f8;
+    border-radius: 16px;
+    margin-top: 1px;
+    padding: 6px;
+}
+
+.PrinciImag{
+    width: 50vh;
+    height: auto;
+}
+
+footer img{
+    width: 50px;
+    height: auto;
+}
+
+
+h1, h2, h3, h4{
+    font-family: var(--font-ppal);
+    color: #f4f6f8
+}
+
+h1{
+    font-size: 3rem;
+}
+
+p, a{
+    font-family: var(--font-sec);
+    color: #a5adb8;
+    margin: 8px;
+    padding: 1px;
+}
+
+p{
+    font-size: 1.5rem;
+}
+
+a{
+    font-size: 1.25rem;
+    border:steelblue;
+}
+/* QUITAR SUBRAYADO */
+a{
+    text-decoration: none;
+}
+
+/* QUITAR EL PUNTO DE LA ENUMERACIÓN */
+ul{
+    list-style: none;
+}
+
+body{
+    background-color: #101318;
+}
+
+.name{
+    color: rgb(15, 136, 176);
+    border: 1px solid #FFFF;
+    border-radius: 8px;
+}
